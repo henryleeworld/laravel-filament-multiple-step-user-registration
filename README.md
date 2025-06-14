@@ -21,14 +21,6 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate --seed
 ```
-- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
-```sh
-$ npm install
-```
-- 執行正式環境版本化資源管道並編譯。
-```sh
-$ npm run build
-```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/admin/register` 來進行註冊。
 
