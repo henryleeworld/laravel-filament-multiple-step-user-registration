@@ -10,7 +10,7 @@ return [
 
         'register' => [
             'before' => '或',
-            'label' => '註冊一個帳戶',
+            'label' => '註冊一個帳號',
         ],
 
         'request_password_reset' => [
@@ -52,7 +52,8 @@ return [
     'notifications' => [
 
         'throttled' => [
-            'title' => '嘗試登入次數過多。請在 :seconds 秒後重試。',
+            'title' => '嘗試登入次數過多',
+            'body' => '請在 :seconds 秒後重試。',
         ],
 
     ],
